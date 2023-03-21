@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.navbar {
+    background-color: #fff875;
+    border-bottom: 1px solid #eee;
+}
+
+.navbar-brand {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 15px;
+}
+
+.navbar-nav .nav-link {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#hero {
+    background-image: url(https://img.freepik.com/fotos-premium/yerba-mate-calabaza-bombilla_82893-9589.jpg?w=2000);
+    background-position: center center;
+    background-size: cover;
+    color: #fff;
+    padding: 100px 0;
+}
+
+#hero h1 {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    background-color: #f5a623;
+    border-color: #f5a623;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 25px;
+}
+
+#columns {
+    padding: 100px 0;
+}
+
+#columns h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#columns p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 16px;
+    margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-brand {
+    font-size: 24px;
+}
+    
+.navbar-nav .nav-item {
+    margin-right: 10px;
+}
+    
+.navbar-nav .nav-link {
+    font-size: 14px;
+}
+    
+#hero h1 {
+    font-size: 36px;
+}
+    
+#hero p {
+    font-size: 16px;
+}
+    
+.btn-primary {
+    font-size: 16px;
+    padding: 10px 20px;
+}
+    
+#columns h2 {
+    font-size: 24px;
+}
+    
+#columns p {
+    font-size: 14px;
+    }
+}
+
+.container-fluid {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.col-12, .col-lg-6 {
+    padding: 0 15px;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
